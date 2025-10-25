@@ -12,9 +12,9 @@ import numpy as np
 
 # ======= CONFIGURAÇÃO RÁPIDA =======
 IMG_GRANDE = "waldo001.jpeg"
-IMG_ALVO   = "alvo001.jpg"
+IMG_ALVO   = "alvo002.png"
 N_MAX      = 30
-THRESH     = 0.70
+THRESH     = 0.50
 ESCALAS    = [0.8, 1.0, 1.2, 1.4, 1.6]
 ROTACOES   = [-30, -15, 0, 15, 30]   # ângulos em graus
 NMS_IOU    = 0.30
